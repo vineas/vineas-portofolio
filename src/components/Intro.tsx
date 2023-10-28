@@ -1,4 +1,4 @@
-const profileImg = require("../assets/alvienas.jpeg")
+import profileImg from '../assets/alvienas.jpeg';
 
 const Intro = () => {
     return (
