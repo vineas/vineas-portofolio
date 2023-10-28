@@ -1,10 +1,8 @@
-import profileImg from '../assets/alvienas.jpeg';
-
 const Intro = () => {
     return (
         <div className='flex items-center justify-center flex-col text-center pt-20 pb-8'>
             <img 
-                src={profileImg} 
+                src="https://media.licdn.com/dms/image/D5603AQFBaHP3wnhDjg/profile-displayphoto-shrink_800_800/0/1682335051827?e=2147483647&v=beta&t=WA919VSP05g5Za_ciYoxGYv7WHD8YtABVNAiOFlNuKM"
                 alt="portfolio" 
                 className='w-48 h-48 object-cover m-5 rounded-full' 
                 />
