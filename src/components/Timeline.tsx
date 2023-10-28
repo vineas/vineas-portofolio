@@ -1,25 +1,11 @@
 const Timeline = () => {
   return (
-    <div className='flex items-center justify-center flex-col text-center pt-10 pb-8'>
-      <p className="text-sm max-w-xl mb-6 ">
-                I'm an indie full-stack developer and content creator building my
-                version of the digital world one step at a time. All coding projects
-                are built from the ground up, from planning and designing all the way
-                to solving real-life problems with code.
-                <br />
-                All video content is built the same way, from ideation and planning,
-                all the way to finalizing the content with artistic touches. I publish
-                that content on my Github{' '}
-                <a
-                    href="https://github.com/vineas"
-                    target="_blank"
-                    className="text-cyan-600 hover:underline underline-offset-1 decoration-2 decoration-red-600"
-                    rel="noreferrer noopener"
-                >
-                    Vineas
-                </a>{' '}
-                to more than 400k subscribers.
-            </p>
+    <div className='border-2 shadow-xl rounded-xl overflow-hidden justify-center pr-10 pl-10' style={{ width: '80%', margin: 'auto' }}>
+      <div className='flex items-center justify-center text-justify pt-6 p'>
+        <p className="text-md w-lg mb-6 ">
+          I am a Software Engineer with a primary interest in modern web application development. I have extensive experience in building and designing web applications that are responsive, intuitive, and reliable. I also have a background in programming languages such as JavaScript, PHP, and Python.
+        </p>
+      </div>
     </div>
   )
 }
