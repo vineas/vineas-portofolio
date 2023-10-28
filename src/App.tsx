@@ -4,6 +4,7 @@ import Portofolio from './components/Portofolio'
 import Timeline from './components/Timeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Tabs from './components/Tabs'
 
 function App() {
   const [activeTab, setActiveTab] = useState('About');
@@ -14,7 +15,9 @@ function App() {
   return (
     <>
       <Intro />
-      <div className='flex items-center justify-center flex-col text-center pt-5 pb-8'>
+      <Tabs/>
+
+      {/* <div className='flex items-center justify-center flex-col text-center pt-5 pb-8'>
         <ul className="flex flex-wrap text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400">
           
         <li className="mr-2">
@@ -60,7 +63,7 @@ function App() {
         {activeTab === 'Portofolio' && <Portofolio />}
         {activeTab === 'About' && <Timeline />}
         {activeTab === 'Contact' && <Contact />}
-      </div>
+      </div> */}
       
       <Footer />
     </>
