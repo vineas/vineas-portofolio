@@ -3,8 +3,8 @@ import PortofolioItem from './PortofolioItem'
 
 const Portofolio = () => {
   return (
-    <div className='flex flex-col md: flex-row items-center justifiy-center '>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+    <div className='flex flex-col md: flex-row items-center justifiy-center' >
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4' >
         {portofolio.map(project => (
           <PortofolioItem
           imgUrl={project.imgUrl}

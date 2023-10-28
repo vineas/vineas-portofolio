@@ -11,7 +11,7 @@ const PortofolioItem = (props: PortofolioItemProps) => {
             <a href={props.link}>
                 <div className='border-2 shadow-xl rounded-xl overflow-hidden'>
                     <img src={props.imgUrl} alt="portfolio" className='w-full h-36 md:h-48 object-cover cursor-pointer' />
-                    <div className='w-full p-4'>
+                    <div className='w-full p-4' style={{background:'white'}}>
                         <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold'>{props.title}</h3>
                         <p className=' flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm'>
                             {props.stack.map((item) => (

@@ -7,8 +7,8 @@ const Intro = () => {
                 alt="portfolio" 
                 className='w-48 h-48 object-cover m-5 rounded-full' 
                 />
-            <h1 className='text-4xl md:text-4xl mb-1 md:mb-3 font-bold'>Alvienas Yandika</h1>
-            <p className='text-base md:text-2xl mb-3 font-medium'>Software Engineer & Fullstack Web Developer</p>
+            <h1 className='text-4xl md:text-5xl mb-1 md:mb-3 font-bold' style={{color:'#3F83F8'}}>Alvienas Yandika</h1>
+            <p className='text-base md:text-2xl mb-3 font-medium' style={{color:'white'}}>Software Engineer & Fullstack Web Developer</p>
         </div>
         </div>
     )

@@ -4,19 +4,19 @@ import Timeline from "./Timeline"
 
 const Tabs = () => {
     return (
-        <div className="flex items-center justify-center flex-col text-center pt-5">
+        <div className="flex items-center justify-center flex-col text-center pt-5" >
             <div className='justify-center min-h-screen'>
-                <ul className="mx-auto grid max-w-full w-full grid-cols-3 gap-x-5 px-8">
-                    <li className="">
+                <ul className="mx-auto grid max-w-full w-full grid-cols-3 gap-x-5 px-8" >
+                    <li className="" style={{background:'#1F2937'}}>
                         <input className="peer sr-only" type="radio" value="yes" name="answer" id="yes" checked />
-                        <label
+                        <label 
                             className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-indigo-500 transition-all duration-500 ease-in-out"
                             htmlFor="yes"
                         >
                             About
                         </label>
 
-                        <div className="absolute bg-white left-0 p-6 mt-2 border-indigo-300 rounded-lg w-[97vw] mx-auto transition-all duration-500 ease-in-out opacity-0 invisible peer-checked:opacity-100 peer-checked:visible ">
+                        <div style={{background:'#1F2937'}} className="absolute bg-white left-0 p-6 mt-2 border-indigo-300 rounded-lg w-[97vw] mx-auto transition-all duration-500 ease-in-out opacity-0 invisible peer-checked:opacity-100 peer-checked:visible ">
                             <Timeline />
                         </div>
                     </li>
@@ -30,7 +30,7 @@ const Tabs = () => {
                             Portofolio
                         </label>
 
-                        <div className="absolute bg-white left-0 p-6 mt-2 border-indigo-300 rounded-lg w-[97vw] mx-auto transition-all duration-500 ease-in-out opacity-0 invisible peer-checked:opacity-100 peer-checked:visible peer-checked:translate-x-1">
+                        <div style={{background:'#1F2937'}} className="absolute bg-white left-0 p-6 mt-2 border-indigo-300 rounded-lg w-[97vw] mx-auto transition-all duration-500 ease-in-out opacity-0 invisible peer-checked:opacity-100 peer-checked:visible peer-checked:translate-x-1">
                             <Portofolio />
                         </div>
                     </li>
