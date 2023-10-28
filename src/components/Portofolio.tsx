@@ -1,4 +1,3 @@
-import React from 'react'
 import portofolio from '../data/portofolio'
 import PortofolioItem from './PortofolioItem'
 

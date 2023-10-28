@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface PortofolioItemProps {
     title: string;
     imgUrl: string;

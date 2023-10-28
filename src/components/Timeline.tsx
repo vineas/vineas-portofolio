@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Timeline = () => {
   return (
     <div className='flex items-center justify-center flex-col text-center pt-10 pb-8'>
