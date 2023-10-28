@@ -1,8 +1,10 @@
+const profileImg = require("../assets/alvienas.jpeg")
+
 const Intro = () => {
     return (
         <div className='flex items-center justify-center flex-col text-center pt-20 pb-8'>
             <img 
-                src="./src/assets/alvienas.jpeg" 
+                src={profileImg} 
                 alt="portfolio" 
                 className='w-48 h-48 object-cover m-5 rounded-full' 
                 />
