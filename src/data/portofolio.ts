@@ -18,4 +18,10 @@ export default [
         stack: ['Javascript', 'Next', 'Bootstrap', 'Redux'],
         link: 'https://github.com/vineas/hire-job_frontend'
     },
+    {
+        title: 'My Recipe Mobile',
+        imgUrl: 'https://raw.githubusercontent.com/vineas/myrecipe-mobile_react_native/master/docs/home.png',
+        stack: ['Javascript', 'React Native', 'Bootstrap', 'Redux'],
+        link: 'https://github.com/vineas/myrecipe-mobile_react_native'
+    },
 ]
