@@ -9,6 +9,9 @@ const Intro = () => {
                 />
             <h1 className='text-4xl md:text-5xl mb-1 md:mb-3 font-bold' style={{color:'#3F83F8'}}>Alvienas Yandika</h1>
             <p className='text-base md:text-2xl mb-3 font-medium' style={{color:'white'}}>Software Engineer & Fullstack Web Developer</p>
+            <p className="text-md w-lg mb-6 pr-5 pl-5" style={{color:'white'}}>
+          I am a Software Engineer with a primary interest in modern web application development. I have extensive experience in building and designing web applications that are responsive, intuitive, and reliable. I also have a background in programming languages such as JavaScript, PHP, and Python.
+        </p>
         </div>
         </div>
     )
