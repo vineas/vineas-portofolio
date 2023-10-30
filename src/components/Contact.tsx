@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <div className='border-2 shadow-xl rounded-xl overflow-hidden justify-center pr-10 pl-10' style={{ width: '100%', margin: 'auto', background:'white' }}>
+    <div className='overflow-hidden justify-center pr-10 pl-10' style={{ width: '100%', margin: 'auto'}}>
       <div className="flex flex-col mt-10 mb-10 mx-auto">
          <div className="flex justify-center items-center">
             <form
@@ -16,18 +16,23 @@ const Contact = () => {
                   name="name"
                   placeholder="Name"
                   className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                  style={{background: 'white'}}
                />
                <input
                   type="text"
                   name="email"
                   placeholder="Email"
                   className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                  style={{background: 'white'}}
+
                />
                <textarea
                   name="message"
                   placeholder="Message"
                   rows={10}
                   className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
+                  style={{background: 'white'}}
+
                />
                <button
                   type="button"
